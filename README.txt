@@ -90,7 +90,8 @@ Log in with your Plex account and start setting up your Plex server.
 Things to make sure when you start setting up plex in the web browser:
 * You have to create separate folders for your "Movies" and "TV Shows". Click on the wrench icon and go to the "Manage" section. Click on "Libraries". Then "Add Library". Add the location for your movies and tv shows. 
 
-* You also have to properly format your movies so the metadata can 		properly configure your movies/shows. Do like this:
+* You also have to properly format your movies so the metadata can properly configure your movies/shows. 
+Format it like this:
 path/to/media_library/Movies
 Then in this folder you have a folder for the name of the movie:  Training Day (2001)
 Make the format "Title (Year)"!!!!
