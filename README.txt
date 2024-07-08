@@ -120,3 +120,4 @@ When you want to update your Plex Library with content just click "Scan Libary F
 
 *You can also click on the plex icon in the top left corner. Search for the library section you want to update and then just click on the three dots on the right side of that selection. You should see the "Scan Library Files" option there too. 
 
+run the ".stop.sh" to tear down your plex server
