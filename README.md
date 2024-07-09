@@ -3,7 +3,7 @@
 ## Prerequisites
 1. **Install Docker**: Follow the instructions at [Docker Installation Guide](https://docs.docker.com/get-docker/).
 2. **Install Docker Compose**: Follow the instructions at [Docker Compose Installation Guide](https://docs.docker.com/compose/install/).
-3. **Download this Code**: Probably the simplest way to get this code would be to click the green dropdown menu that says "Code". Then download the zip of this repo. 
+3. **Download this Code**: Probably the simplest way to get this code would be to click the green dropdown menu that says `Code`. Then click `Download Zip`. 
 ---
 
 ## Step 1: Obtain Your Plex Claim Token
