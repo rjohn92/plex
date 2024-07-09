@@ -5,8 +5,30 @@
 2. **Install Docker Compose**: Follow the instructions at [Docker Compose Installation Guide](https://docs.docker.com/compose/install/).
 3. **Download this Code**: Probably the simplest way to get this code would be to click the green dropdown menu that says `Code`. Then click `Download Zip`. (**`Obviously if you don't download this code you can't run this code`**).
 4. **Create your Plex account**: Follow the instructions to [create your Plex account](https://support.plex.tv/articles/201862428-plex-accounts/#:~:text=Click%20the%20Sign%20Up%20button,up%20using%20your%20Facebook%20Account.). You need this account to be able to access the web page that serves as your media interface.
+**Optional**:  Using the terminal for docker can be annoying/difficult when you need to find out what's going on in your containers. So you can use Portainer. Portainer helps with a web based GUI to visualize what's going on in these containers.
+```bash
+docker volume create portainer_data
+```
 
-**Optional**: Because using the 
+This will create a new volume in Docker. It will be called `portainer_data`. 
+
+```bash
+docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+```
+
+**-d**: Runs the container in detached mode.
+**-p 9443:9443**: `Maps port 9443 on your host to port 9443 in the container for the Portainer web UI with HTTPS`.
+**--name portainer**: `Names the container portainer`.
+**--restart=always**: `Ensures the container restarts automatically if it stops or if the Docker daemon restarts`.
+**-v /var/run/docker.sock:/var/run/docker.sock**: `Mounts the Docker socket from the host into the container, allowing Portainer to interact with the Docker daemon`.
+**-v portainer_data:/data**: `Mounts the portainer_data volume to the /data directory in the container, where Portainer stores its data`.
+portainer
+
+Open a web browser and go to https://<your-server-ip>:9443.
+You will be prompted to create an admin user.
+
+TLDR: Just run this command and and go to localhost:9443 and you'll see the GUI for Portainer. 
+
 ---
 
 ## Step 1: Obtain Your Plex Claim Token
