@@ -142,6 +142,10 @@ Ensure you have the following directories:
     Put your .avi, .mp4, .mkv or whatever format in there i.e.:
     `Training_Day_2001_1080p_Torrented1337x.mp4`
 
+---
+
+## Final Reminders
+
 - When you want to update your Plex Library with content just click "Scan Library Files".
 
 - You can also click on the Plex icon in the top left corner. Search for the library section you want to update and then just click on the three dots on the right side of that selection. You should see the "Scan Library Files" option there too.
