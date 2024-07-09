@@ -35,7 +35,8 @@
     ```
 
    Notes:
-- For valid time zone options, refer to the [timezone catalog](https://manpages.ubuntu.com/manpages/noble/man3/DateTime::TimeZone::Catalog.3pm.html) (i.e. `America/New_York`).
+- Make sure you get a valid `CLAIM_TOKEN`. This won't work without your claim token.
+- Remember to input a valid entry to your `TZ`. For valid time zone options, refer to the [timezone catalog](https://manpages.ubuntu.com/manpages/noble/man3/DateTime::TimeZone::Catalog.3pm.html) (i.e. `America/New_York`).
 - Your `HOSTNAME` will be what you want to call your media server (i.e. `My Server`)
 
 ---
