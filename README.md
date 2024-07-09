@@ -6,16 +6,20 @@
 3. **Download this Code**: Probably the simplest way to get this code would be to click the green dropdown menu that says `Code`. Then click `Download Zip`. (**`Obviously if you don't download this code you can't run this code`**).
 4. **Create your Plex account**: Follow the instructions to [create your Plex account](https://support.plex.tv/articles/201862428-plex-accounts/#:~:text=Click%20the%20Sign%20Up%20button,up%20using%20your%20Facebook%20Account.). You need this account to be able to access the web page that serves as your media interface.
 **Optional**:  Using the terminal for docker can be annoying/difficult when you need to find out what's going on in your containers. So you can use Portainer. Portainer helps with a web based GUI to visualize what's going on in these containers.
+
+***Run***:
 ```bash
 docker volume create portainer_data
 ```
+***What this does***: 
+- This will create a new volume in Docker. It will be called `portainer_data`. 
 
-This will create a new volume in Docker. It will be called `portainer_data`. 
-
+***Run***:
 ```bash
 docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 ```
 
+***What this does***:
 **-d**: Runs the container in detached mode.
 
 **-p 9443:9443**: `Maps port 9443 on your host to port 9443 in the container for the Portainer web UI with HTTPS`.
@@ -28,12 +32,11 @@ docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.
 
 **-v portainer_data:/data**: `Mounts the portainer_data volume to the /data directory in the container, where Portainer stores its data`.
 
-portainer
-
+Next: 
 Open a web browser and go to https://<your-server-ip>:9443.
 You will be prompted to create an admin user.
 
-TLDR: Just run this command and and go to localhost:9443 and you'll see the GUI for Portainer. 
+TLDR: Just run these commands and and go to localhost:9443 and you'll see the GUI for Portainer. Set up your account and you're ready to look at containers/volumes/images and whatever else docker has (idk it's a lot).
 
 ---
 
