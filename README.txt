@@ -1,4 +1,4 @@
-# H1 Setting Up Plex Server with Docker
+# Setting Up Plex Server with Docker
 ## Prerequisites
 Install Docker: Follow the instructions at "https://docs.docker.com/get-docker/" to install Docker.
 Install Docker Compose: Follow the instructions at "https://docs.docker.com/compose/install/" to install Docker Compose.
