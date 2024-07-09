@@ -4,6 +4,7 @@
 1. **Install Docker**: Follow the instructions at [Docker Installation Guide](https://docs.docker.com/get-docker/).
 2. **Install Docker Compose**: Follow the instructions at [Docker Compose Installation Guide](https://docs.docker.com/compose/install/).
 3. **Download this Code**: Probably the simplest way to get this code would be to click the green dropdown menu that says `Code`. Then click `Download Zip`. (**`Obviously if you don't download this code you can't run this code`**).
+4. **Create your Plex account**: Follow the instructions to [create your Plex account](https://support.plex.tv/articles/201862428-plex-accounts/#:~:text=Click%20the%20Sign%20Up%20button,up%20using%20your%20Facebook%20Account.). You need this account to be able to access the web page that serves as your media interface. 
 ---
 
 ## Step 1: Obtain Your Plex Claim Token
