@@ -36,7 +36,7 @@ docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.
 **-v portainer_data:/data**: `Mounts the portainer_data volume to the /data directory in the container, where Portainer stores its data`.
 
 Next: 
-Open a web browser and go to https://<your-server-ip>:9443.
+Open a web browser and go to https://localhost:9443.
 You will be prompted to create an admin user.
 
 TLDR: Just run these commands and and go to localhost:9443 and you'll see the GUI for Portainer. Set up your account and you're ready to look at containers/volumes/images and whatever else docker has (idk it's a lot).
