@@ -22,19 +22,19 @@ docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.
 
 - ***What this does***:
 
--- **docker run**: Specifies that we will run a docker command.
+**docker run**: Specifies that we will run a docker command.
 
-- **d**: Runs the container in detached mode.
+**-d**: Runs the container in detached mode.
 
-- **-p 9443:9443**: `Maps port 9443 on your host to port 9443 in the container for the Portainer web UI with HTTPS`.
+**-p 9443:9443**: `Maps port 9443 on your host to port 9443 in the container for the Portainer web UI with HTTPS`.
 
-**-- --name portainer**: `Names the container portainer`.
+**--name portainer**: `Names the container portainer`.
 
-**-- --restart=always**: `Ensures the container restarts automatically if it stops or if the Docker daemon restarts`.
+**--restart=always**: `Ensures the container restarts automatically if it stops or if the Docker daemon restarts`.
 
-**-- --v /var/run/docker.sock:/var/run/docker.sock**: `Mounts the Docker socket from the host into the container, allowing Portainer to interact with the Docker daemon`.
+**-v /var/run/docker.sock:/var/run/docker.sock**: `Mounts the Docker socket from the host into the container, allowing Portainer to interact with the Docker daemon`.
 
-**-- --v portainer_data:/data**: `Mounts the portainer_data volume to the /data directory in the container, where Portainer stores its data`.
+**-v portainer_data:/data**: `Mounts the portainer_data volume to the /data directory in the container, where Portainer stores its data`.
 
 Next: 
 Open a web browser and go to https://<your-server-ip>:9443.
