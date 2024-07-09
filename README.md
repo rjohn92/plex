@@ -33,7 +33,10 @@
     IP_ADDRESS=your_ip_address_here:32400/
     HOSTNAME=your_hostname
     ```
+
+   Notes:
 - For valid time zone options, refer to the [timezone catalog](https://manpages.ubuntu.com/manpages/noble/man3/DateTime::TimeZone::Catalog.3pm.html).
+- Your `HOSTNAME` will be what you want to call your media server (`i.e. My Server`)
 
 ---
 
