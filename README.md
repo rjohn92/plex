@@ -28,11 +28,12 @@
 2. Add the following lines to the `.env` file, replacing the placeholders with your values:
     ```plaintext
     CLAIM_TOKEN=your_claim_token_here
-    TZ=your_timezone_here [List of available Time Zones](https://manpages.ubuntu.com/manpages/noble/man3/DateTime::TimeZone::Catalog.3pm.html)
+    TZ=your_timezone_here 
     MEDIA_LOCATION=your_media_directory_here
     IP_ADDRESS=your_ip_address_here:32400/
     HOSTNAME=your_hostname
     ```
+- For valid time zone options, refer to the [timezone catalog](https://manpages.ubuntu.com/manpages/noble/man3/DateTime::TimeZone::Catalog.3pm.html).
 
 ---
 
