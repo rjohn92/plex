@@ -73,6 +73,7 @@ TLDR: Just run these commands and and go to localhost:9443 and you'll see the GU
    ***Notes***:
 - Make sure you get a valid `CLAIM_TOKEN`. This won't work without your claim token.
 - Remember to input a valid entry to your `TZ`. For valid time zone options, refer to the [timezone catalog](https://manpages.ubuntu.com/manpages/noble/man3/DateTime::TimeZone::Catalog.3pm.html) (i.e. `America/New_York`).
+- Make sure you `MEDIA_LOCATION` actually points to the place where you have your entire media library. And make sure your library has the proper permissions to be accessed by Docker.
 - Your `HOSTNAME` will be what you want to call your media server (i.e. `My Server`)
 
 ---
