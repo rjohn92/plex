@@ -22,7 +22,7 @@ docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.
 
 - ***What this does***:
 
-- **docker run**: Specifies that we will run a docker command.
+-- **docker run**: Specifies that we will run a docker command.
 
 - **d**: Runs the container in detached mode.
 
