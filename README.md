@@ -20,6 +20,7 @@ docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.
 ```
 
 ***What this does***:
+
 **-d**: Runs the container in detached mode.
 
 **-p 9443:9443**: `Maps port 9443 on your host to port 9443 in the container for the Portainer web UI with HTTPS`.
