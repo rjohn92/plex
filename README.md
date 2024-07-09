@@ -94,7 +94,7 @@ Ensure you have the following directories:
    - Protocol: TCP
    - Internal IP Address: Your Plex server's IP address (the one obtained in Step 2)
 
-XFinity makes port forwarding easy with there app. Download the app and follow [the instructions](https://www.xfinity.com/support/articles/xfi-port-forwarding)
+XFinity makes port forwarding easy with their app. Download the app and follow [the instructions](https://www.xfinity.com/support/articles/xfi-port-forwarding)
 
 ---
 
@@ -153,4 +153,4 @@ XFinity makes port forwarding easy with there app. Download the app and follow [
 
 - You can also click on the Plex icon in the top left corner. Search for the library section you want to update and then just click on the three dots on the right side of that selection. You should see the "Scan Library Files" option there too.
 
-- Run the `.stop.sh` to tear down your Plex server if you want (no real need to do this unless you want to make changes to your container configurations).
+- Run the `./stop.sh` to tear down your Plex server if you want (no real need to do this unless you want to make changes to your container configurations).
