@@ -35,8 +35,8 @@
     ```
 
    Notes:
-- For valid time zone options, refer to the [timezone catalog](https://manpages.ubuntu.com/manpages/noble/man3/DateTime::TimeZone::Catalog.3pm.html).
-- Your `HOSTNAME` will be what you want to call your media server (`i.e. My Server`)
+- For valid time zone options, refer to the [timezone catalog](https://manpages.ubuntu.com/manpages/noble/man3/DateTime::TimeZone::Catalog.3pm.html) (i.e. `America/New_York`).
+- Your `HOSTNAME` will be what you want to call your media server (i.e. `My Server`)
 
 ---
 
