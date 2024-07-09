@@ -20,7 +20,7 @@ services:
       - PUID=1000  # Replace with your user's UID
       - PGID=1000  # Replace with your user's GID
       - ADVERTISE_IP=http://${IP_ADDRESS}
-    hostname: "RJ Media Server"
+    hostname: ${HOSTNAME}
     volumes:
       - ./config:/config
       - ./transcode:/transcode
