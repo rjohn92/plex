@@ -5,8 +5,7 @@
 2. **Install Docker Compose**: Follow the instructions at [Docker Compose Installation Guide](https://docs.docker.com/compose/install/).
 3. **Download this Code**: Probably the simplest way to get this code would be to click the green dropdown menu that says `Code`. Then click `Download Zip`. (**`Obviously if you don't download this code you can't run this code`**).
 4. **Create your Plex account**: Follow the instructions to [create your Plex account](https://support.plex.tv/articles/201862428-plex-accounts/#:~:text=Click%20the%20Sign%20Up%20button,up%20using%20your%20Facebook%20Account.). You need this account to be able to access the web page that serves as your media interface.
-   
-**Optional**:  Using the terminal for docker can be annoying/difficult when you need to find out what's going on in your containers. So you can use Portainer. Portainer helps with a web based GUI to visualize what's going on in these containers.
+5. **User-friendly GUI to track Plex** ***(Optional)***:  Using the terminal for docker can be annoying/difficult when you need to find out what's going on in your containers. So you can use Portainer. Portainer helps with a web based GUI to visualize what's going on in these containers.
 
 - ***Run***:
 ```bash
