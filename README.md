@@ -94,6 +94,8 @@ Ensure you have the following directories:
    - Protocol: TCP
    - Internal IP Address: Your Plex server's IP address (the one obtained in Step 2)
 
+XFinity makes port forwarding easy with there app. Download the app and follow [the instructions](https://www.xfinity.com/support/articles/xfi-port-forwarding)
+
 ---
 
 ## Step 7: Run Docker Compose
