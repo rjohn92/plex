@@ -8,19 +8,19 @@
    
 **Optional**:  Using the terminal for docker can be annoying/difficult when you need to find out what's going on in your containers. So you can use Portainer. Portainer helps with a web based GUI to visualize what's going on in these containers.
 
-***Run***:
+- ***Run***:
 ```bash
 docker volume create portainer_data
 ```
-***What this does***: 
+- ***What this does***: 
 - This will create a new volume in Docker. It will be called `portainer_data`. 
 
-***Run***:
+- ***Run***:
 ```bash
 docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 ```
 
-***What this does***:
+- ***What this does***:
 
 **-d**: Runs the container in detached mode.
 
